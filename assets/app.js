@@ -18,7 +18,7 @@ $(document).ready(function(){
     var firstTrain;
     var frequency = 0;
 
-    $("#add-train").on("click", function() {
+    $("#addtrain").on("click", function() {
         event.preventDefault();
         name = $("#train-name").val().trim();
         destination = $("#destination").val().trim();
